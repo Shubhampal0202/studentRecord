@@ -1,0 +1,103 @@
+.form {
+    width: 50%;
+    border-radius: 6px;
+    margin: 3rem auto;
+    padding-top: 2px;
+    box-shadow: 0px 2px 8px #666;
+}
+
+.form label {
+    font-weight: 700;
+    color: #495057;
+}
+
+.student-name {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.student-roll-number {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.student-class {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.student-mobile-number {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.student-address {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#student-name {
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+
+}
+
+#student-roll-number {
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#student-class {
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#student-mobile-number {
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#student-address {
+    margin: 6px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.form-button {
+    text-align: end;
+}
+
+#form-button {
+    margin-right: 20px;
+    margin-bottom: 6px;
+    padding: 10px 14px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #2b8a3e;
+}
+
+#form-button:hover {
+    background-color: #37b24d;
+}

@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #e9ecef;
+    box-shadow: 0px 2px 8px #666;
+    list-style: none;
+    display: flex;
+    height: 3.2rem;
+    align-items: center;
+    padding: 10px;
+    /* position: fixed;
+    top: 0px;
+    width: 100%; */
+}
+
+.logo {
+    width: 30%;
+    font-size: 28px;
+    text-align: end;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+.routes {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 80px;
+    color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #2b8a3e;
+}
+
+.link:hover {
+    background-color: #37b24d;
+}
